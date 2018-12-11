@@ -34,57 +34,13 @@
         <span slot="title">导航三</span>
       </el-menu-item>
  -->
-      <el-menu-item>
+
+      <el-menu-item v-for="(item,index) in menu" :key="item.path" index="index">
         <i class="el-icon-picture"></i>
-        <span slot="title"><router-link to="/echarts/bar">柱状图</router-link></span>
+        <span slot="title"><router-link :to="item.path">{{item.title}}</router-link></span>
       </el-menu-item>
-
-      <el-menu-item>
-        <i class="el-icon-picture"></i>
-        <span slot="title"><router-link to="/echarts/pie">饼图</router-link></span>
-      </el-menu-item>
-
-      <el-menu-item>
-        <i class="el-icon-picture"></i>
-        <span slot="title"><router-link to="/echarts/scatter">散点图</router-link></span>
-      </el-menu-item>
-
-       <el-menu-item>
-        <i class="el-icon-picture"></i>
-        <span slot="title"><router-link to="/echarts/map">地图</router-link></span>
-      </el-menu-item>
-
-       <el-menu-item>
-        <i class="el-icon-picture"></i>
-        <span slot="title"><router-link to="/echarts/candlestick">K线图</router-link></span>
-      </el-menu-item>
-
-       <el-menu-item>
-        <i class="el-icon-picture"></i>
-        <span slot="title"><router-link to="/echarts/radar">雷达图</router-link></span>
-      </el-menu-item>
-
-       <el-menu-item>
-        <i class="el-icon-picture"></i>
-        <span slot="title"><router-link to="/echarts/funnel">漏斗图</router-link></span>
-      </el-menu-item>
-
-
-       <el-menu-item>
-        <i class="el-icon-picture"></i>
-        <span slot="title"><router-link to="/echarts/gauge">仪表盘</router-link></span>
-      </el-menu-item>
-
-
-       <el-menu-item>
-        <i class="el-icon-picture"></i>
-        <span slot="title"><router-link to="/echarts/graphgl">关系图</router-link></span>
-      </el-menu-item>
-
-
+      
     </el-menu>
-
-
       </el-aside>
       <el-container>
         <el-header>Header</el-header>
@@ -101,8 +57,18 @@ export default {
   name: 'echarts',
   data() {
     return {
-      munu: [
-        { title: '图标', className: '/echarts', submenu: [{ title: 'aa' }] },
+      menu: [
+        { title: '柱状图', path: '/echarts/bar' },
+        { title: '饼图', path: '/echarts/pie' },
+        { title: '饼图', path: '/echarts/pie' },
+        { title: '散点图', path: '/echarts/scatter' },
+        { title: '地图', path: '/echarts/map' },
+        { title: 'K线图', path: '/echarts/candlestick' },
+        { title: '雷达图', path: '/echarts/radar' },
+        { title: '漏斗图', path: '/echarts/funnel' },
+        { title: '仪表盘', path: '/echarts/gauge' },
+        // { title: '关系图', path: '/echarts/graphgl' },
+
       ],
     };
   },

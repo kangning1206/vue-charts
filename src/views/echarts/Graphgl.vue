@@ -6,6 +6,7 @@
 <script type="text/javascript">
 import echarts from 'echarts';
 
+
 function createNodes(widthCount, heightCount) {
   const nodes = [];
   for (let i = 0; i < widthCount; i++) {
