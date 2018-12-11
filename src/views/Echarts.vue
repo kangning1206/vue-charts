@@ -35,11 +35,11 @@
       </el-menu-item>
  -->
 
-      <el-menu-item v-for="(item,index) in menu" :key="item.path" index="index">
+      <el-menu-item v-for="(item,index) in menu" :key="index" index="index">
         <i class="el-icon-picture"></i>
         <span slot="title"><router-link :to="item.path">{{item.title}}</router-link></span>
       </el-menu-item>
-      
+
     </el-menu>
       </el-aside>
       <el-container>
@@ -59,7 +59,6 @@ export default {
     return {
       menu: [
         { title: '柱状图', path: '/echarts/bar' },
-        { title: '饼图', path: '/echarts/pie' },
         { title: '饼图', path: '/echarts/pie' },
         { title: '散点图', path: '/echarts/scatter' },
         { title: '地图', path: '/echarts/map' },
