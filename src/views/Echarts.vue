@@ -3,10 +3,9 @@
     <el-container>
       <el-aside width="200px">
 
-        <el-menu
-      default-active="2"
-      class="el-menu-vertical-demo">
-      <el-submenu index="1">
+        <el-menu default-active="2">
+
+      <!-- <el-submenu index="1">
         <template slot="title">
           <i class="el-icon-location"></i>
           <span>导航一</span>
@@ -23,30 +22,63 @@
           <template slot="title">选项4</template>
           <el-menu-item index="1-4-1">选项1</el-menu-item>
         </el-submenu>
-      </el-submenu>
-      <el-menu-item index="2">
+      </el-submenu> -->
+
+     <!--  <el-menu-item index="2">
         <i class="el-icon-menu"></i>
         <span slot="title">导航二</span>
-      </el-menu-item>
+      </el-menu-item> -->
 
       <!-- <el-menu-item index="3" disabled>
         <i class="el-icon-document"></i>
         <span slot="title">导航三</span>
       </el-menu-item>
  -->
-      <el-menu-item index="4">
-        <i class="el-icon-setting"></i>
+      <el-menu-item>
+        <i class="el-icon-picture"></i>
         <span slot="title"><router-link to="/echarts/bar">柱状图</router-link></span>
       </el-menu-item>
 
-      <el-menu-item index="4">
-        <i class="el-icon-setting"></i>
+      <el-menu-item>
+        <i class="el-icon-picture"></i>
         <span slot="title"><router-link to="/echarts/pie">饼图</router-link></span>
       </el-menu-item>
 
-      <el-menu-item index="4">
-        <i class="el-icon-setting"></i>
+      <el-menu-item>
+        <i class="el-icon-picture"></i>
         <span slot="title"><router-link to="/echarts/scatter">散点图</router-link></span>
+      </el-menu-item>
+
+       <el-menu-item>
+        <i class="el-icon-picture"></i>
+        <span slot="title"><router-link to="/echarts/map">地图</router-link></span>
+      </el-menu-item>
+
+       <el-menu-item>
+        <i class="el-icon-picture"></i>
+        <span slot="title"><router-link to="/echarts/candlestick">K线图</router-link></span>
+      </el-menu-item>
+
+       <el-menu-item>
+        <i class="el-icon-picture"></i>
+        <span slot="title"><router-link to="/echarts/radar">雷达图</router-link></span>
+      </el-menu-item>
+
+       <el-menu-item>
+        <i class="el-icon-picture"></i>
+        <span slot="title"><router-link to="/echarts/funnel">漏斗图</router-link></span>
+      </el-menu-item>
+
+
+       <el-menu-item>
+        <i class="el-icon-picture"></i>
+        <span slot="title"><router-link to="/echarts/gauge">仪表盘</router-link></span>
+      </el-menu-item>
+
+
+       <el-menu-item>
+        <i class="el-icon-picture"></i>
+        <span slot="title"><router-link to="/echarts/graphgl">关系图</router-link></span>
       </el-menu-item>
 
 
@@ -66,7 +98,7 @@
 
 <script>
 export default {
-  name: 'home',
+  name: 'echarts',
   data() {
     return {
       munu: [
@@ -77,3 +109,22 @@ export default {
 };
 
 </script>
+
+<style lang="less">
+.el-header,
+.el-footer {
+  background-color: #293c55;
+}
+
+.el-aside {
+  background-color: #293c55;
+}
+
+.el-main {
+  background-color: #fff;
+}
+.el-container{
+  height: 100vh;
+}
+
+</style>

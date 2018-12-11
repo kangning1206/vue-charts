@@ -202,21 +202,22 @@ export default {
         const html = [];
         echarts.util.each(mapOnDim[dimDefine[0]], (mapItem, dataName) => {
           const valuesHTML = [];
-          echarts.util.each(mapItem, (value, dataName) => {
+          echarts.util.each(mapItem, (value, dataName1) => {
             valuesHTML.push(
-              `<span style="color:${colorBySchema[dataName]}">${
+              `<span style="color:${colorBySchema[dataName1]}">${
                 dataName
               }</span>: ${value}`,
             );
           });
           html.push(`<div style="margin: 10px 0">${dataName}<br/>${valuesHTML.join('<br/>')}</div>`);
         });
-        html.length && resultHTML.push(
-          `${'<div style="margin: 10px 0">'
-            + '<div style="font-size: 16px; color: #aaa">POINTS ON '}${dimDefine[1]}</div>${
-            html.join('')
-          }</div>`,
-        );
+
+        if (html.length) {
+          resultHTML.push(
+            `<div style="margin: 10px 0"><div style="font-size: 16px; color: #aaa">
+          POINTS ON ${dimDefine[1]}</div>${html.join('')}</div>`,
+          );
+        }
       });
       return resultHTML.join('');
     }

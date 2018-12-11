@@ -28,7 +28,12 @@ export default new Router({
       { path: 'bar', name: 'bar', component: () => import('./views/echarts/Bar.vue') },
       { path: 'pie', name: 'pie', component: () => import('./views/echarts/Pie.vue') },
       { path: 'scatter', name: 'scatter', component: () => import('./views/echarts/Scatter.vue') },
-
+      { path: 'map', name: 'map', component: () => import('./views/echarts/Map.vue') },
+      { path: 'candlestick', name: 'candlestick', component: () => import('./views/echarts/Candlestick.vue') },
+      { path: 'radar', name: 'radar', component: () => import('./views/echarts/Radar.vue') },
+      { path: 'funnel', name: 'funnel', component: () => import('./views/echarts/Funnel.vue') },
+      { path: 'gauge', name: 'gauge', component: () => import('./views/echarts/Gauge.vue') },
+      { path: 'graphgl', name: 'graphgl', component: () => import('./views/echarts/Graphgl.vue') },
     ],
   },
   {
