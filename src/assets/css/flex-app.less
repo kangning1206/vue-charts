@@ -1,0 +1,109 @@
+/*! https://github.com/lzxb/flex.css */
+/*
+    定义flex布局
+    http://the-echoplex.net/flexyboxes/
+    http://bennettfeely.com/flexplorer/
+*/
+.flex-app (@prefix) {
+    
+/* flex容器 */
+  @{prefix}FBH,
+  @{prefix}FBV {
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+  }
+
+
+  // 垂直排列方式，默认column，从上到下
+  @{prefix}FBV {
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+
+  /* inline-flex */
+  @{prefix}IFBH,
+  @{prefix}IFBV {
+    display: -ms-inline-flexbox;
+    display: -webkit-inline-flex;
+    display: inline-flex;
+  }
+
+  // 垂直排列方式，默认column，从上到下
+  @{prefix}IFBV {
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+
+    /* align-items 垂直对齐方式，也就是在交叉轴上如何对齐 */
+  // cross axis's align start
+  @{prefix}FBAS {
+    -webkit-align-items: flex-start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+  }
+
+
+
+  // cross axis's align center
+  @{prefix}FBAC {
+      -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+
+  // cross axis's align end
+  @{prefix}FBAE {
+    -webkit-align-items: flex-end;
+    -ms-flex-align: end;
+    align-items: flex-end;
+  }
+
+  // cross axis's align end
+  @{prefix}FBAB {
+    -webkit-align-items: baseline;
+    -ms-flex-align: baseline;
+    align-items: baseline;
+  }
+
+  // main axis's justify start
+  @{prefix}FBJS {
+    -webkit-justify-content: flex-start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+  }
+
+  // main axis's justify center
+  @{prefix}FBJC {
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
+
+  // main axis's justify end
+  @{prefix}FBJE {
+    -webkit-justify-content: flex-end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+  }
+
+  // main axis's justify space between
+  @{prefix}FBJB {
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+  }
+
+
+  .flex-box(10);
+/*flex属性是flex-grow, flex-shrink 和 flex-basis的简写，默认值为0 1 auto。后两个属性可选。*/
+  .flex-box(@n, @i: 0) when (@i =< @n) {
+    @{prefix}FB@{i} {
+      flex: @i;
+    }
+    .flex-box(@n, (@i + 1));
+  }
+
+}
