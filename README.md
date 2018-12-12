@@ -1,5 +1,10 @@
 # vue-charts
 
+## demo
+
+https://kangning1206.github.io/vue-charts
+
+
 ## Project setup
 ```
 npm install
