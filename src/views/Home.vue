@@ -28,6 +28,9 @@ export default {
 </script>
 
 <style type="text/css">
+body{
+  background: #293c55;
+}
   .home{
     margin:0 auto;
     width: 1000px;
