@@ -65,12 +65,13 @@ export default {
 }
 
 .el-container {
-  height: 100vh;
+  height: 800px;
 }
 
 .header-menu {
   position: absolute;
   right: 0;
+  top: 0;
 }
 
 .el-menu {
