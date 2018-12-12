@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/vue-charts/precache-manifest.4726274549976732599d9807315d8483.js"
+  "/vue-charts/precache-manifest.f62a191d466f93bf7feedcaf43e0e90e.js"
 );
 
 workbox.core.setCacheNameDetails({prefix: "vue-charts"});

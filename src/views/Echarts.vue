@@ -3,7 +3,7 @@
     <el-container>
       <el-header>
         <a href="http://www.echartsjs.com/index.html" class="navbar-brand">
-        <img src="/img/logo.png" alt="echarts logo"
+        <img src="../assets/img/logo.png" alt="echarts logo"
       class="navbar-logo"></a>
         <el-menu mode="horizontal" class="header-menu">
           <el-menu-item index="1">
