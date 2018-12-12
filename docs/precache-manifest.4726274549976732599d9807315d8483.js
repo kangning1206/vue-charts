@@ -1,7 +1,7 @@
 self.__precacheManifest = [
   {
-    "revision": "7bb08bd2ed6dc3f1e82e",
-    "url": "/vue-charts/js/chunk-7f08e9da.0682b698.js"
+    "revision": "e2e4982c50a8dcabe3a1",
+    "url": "/vue-charts/js/chunk-7f08e9da.87b0a3bf.js"
   },
   {
     "revision": "b6216d61c03e6ce0c9aea6ca7808f7ca",
@@ -12,8 +12,8 @@ self.__precacheManifest = [
     "url": "/vue-charts/js/chunk-80e9a11a.2d4e1a75.js"
   },
   {
-    "revision": "b087ea00df41c8612201",
-    "url": "/vue-charts/js/app.cc07538b.js"
+    "revision": "61a681c731e1dd68a10e",
+    "url": "/vue-charts/js/app.8f226da4.js"
   },
   {
     "revision": "d7b4480c66475dd7bb49",
@@ -56,20 +56,24 @@ self.__precacheManifest = [
     "url": "/vue-charts/js/chunk-04e37cf8.385f46fc.js"
   },
   {
+    "revision": "f37d2aa90acb650466a460f75cb3eabd",
+    "url": "/vue-charts/fonts/iconfont.f37d2aa9.eot"
+  },
+  {
     "revision": "c72a12fa6f9fbb5ab161",
     "url": "/vue-charts/js/about.c20f9533.js"
   },
   {
-    "revision": "1f1c2b6da30f9c63ed1a4b35e3c56282",
+    "revision": "afa45bd70af5761fc3cc848b0765ea70",
     "url": "/vue-charts/index.html"
+  },
+  {
+    "revision": "806717a886782672b7570d9617cd56b6",
+    "url": "/vue-charts/img/logo.png"
   },
   {
     "revision": "740ce0b0401c88e541db1e849dfd5cc1",
     "url": "/vue-charts/img/iconfont.740ce0b0.svg"
-  },
-  {
-    "revision": "f37d2aa90acb650466a460f75cb3eabd",
-    "url": "/vue-charts/fonts/iconfont.f37d2aa9.eot"
   },
   {
     "revision": "64a51a9dae04db014ea96b930d8468ec",
@@ -88,11 +92,11 @@ self.__precacheManifest = [
     "url": "/vue-charts/css/chunk-vendors.a6417eae.css"
   },
   {
-    "revision": "7bb08bd2ed6dc3f1e82e",
+    "revision": "e2e4982c50a8dcabe3a1",
     "url": "/vue-charts/css/chunk-7f08e9da.5f0a81b3.css"
   },
   {
-    "revision": "b087ea00df41c8612201",
+    "revision": "61a681c731e1dd68a10e",
     "url": "/vue-charts/css/app.5beeb1f7.css"
   }
 ];

@@ -25,10 +25,4 @@ new Vue({
   router,
   store,
   render: h => h(App),
-   watch: {
-    '$route' (to, from) {
-      // 对路由变化作出响应...
-      console.log(to,from)
-    }
-  },
 }).$mount('#app');

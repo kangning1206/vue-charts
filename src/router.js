@@ -23,11 +23,11 @@ export default new Router({
   {
     path: '/echarts',
     name: 'echarts',
-    // redirect: '/echarts/bar',
+    redirect: '/echarts/bar',
     component: () => import('./views/Echarts.vue'),
     children: [
     // 匹配默认或者使用 redirect 实现
-      { path: '', name: '', component: () => import('./views/echarts/Bar.vue') },
+      // { path: '', name: '', component: () => import('./views/echarts/Bar.vue') },
       { path: 'bar', name: 'bar', component: () => import('./views/echarts/Bar.vue') },
       { path: 'pie', name: 'pie', component: () => import('./views/echarts/Pie.vue') },
       { path: 'scatter', name: 'scatter', component: () => import('./views/echarts/Scatter.vue') },
