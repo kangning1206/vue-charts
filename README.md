@@ -4,6 +4,8 @@
 
 https://kangning1206.github.io/vue-charts
 
+> github pages 不支持history 路径，不要刷新页面，否则404
+
 
 ## Project setup
 ```
