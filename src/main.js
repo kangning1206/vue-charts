@@ -13,6 +13,7 @@ import './registerServiceWorker';
 
 import '@/assets/css/flex.less';
 import '@/assets/css/base.css';
+import '@/assets/css/iconfont/iconfont.css';
 
 Vue.config.productionTip = false;
 

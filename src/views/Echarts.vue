@@ -1,71 +1,46 @@
 <template>
   <div>
     <el-container>
-      <el-aside width="200px">
-
-        <el-menu default-active="2">
-
-      <!-- <el-submenu index="1">
-        <template slot="title">
-          <i class="el-icon-location"></i>
-          <span>导航一</span>
-        </template>
-        <el-menu-item-group>
-          <template slot="title">分组一</template>
-          <el-menu-item index="1-1">选项1</el-menu-item>
-          <el-menu-item index="1-2">选项2</el-menu-item>
-        </el-menu-item-group>
-        <el-menu-item-group title="分组2">
-          <el-menu-item index="1-3">选项3</el-menu-item>
-        </el-menu-item-group>
-        <el-submenu index="1-4">
-          <template slot="title">选项4</template>
-          <el-menu-item index="1-4-1">选项1</el-menu-item>
-        </el-submenu>
-      </el-submenu> -->
-
-     <!--  <el-menu-item index="2">
-        <i class="el-icon-menu"></i>
-        <span slot="title">导航二</span>
-      </el-menu-item> -->
-
-      <!-- <el-menu-item index="3" disabled>
-        <i class="el-icon-document"></i>
-        <span slot="title">导航三</span>
-      </el-menu-item>
- -->
-
-      <el-menu-item v-for="(item,index) in menu" :key="index" index="index">
-        <i class="el-icon-picture"></i>
-        <span slot="title"><router-link :to="item.path">{{item.title}}</router-link></span>
-      </el-menu-item>
-
-    </el-menu>
-      </el-aside>
+      <el-header>
+        <a href="http://www.echartsjs.com/index.html" class="navbar-brand">
+      <img src="http://www.echartsjs.com/examples/images/logo.png" alt="echarts logo" 
+      class="navbar-logo"></a>
+        <el-menu mode="horizontal" class="header-menu">
+          <el-menu-item index="1">
+            <router-link to="/">首页</router-link>
+          </el-menu-item>
+        </el-menu>
+      </el-header>
       <el-container>
-        <el-header>Header</el-header>
-        <el-main><router-view/>
+        <el-aside width="200px" router>
+          <el-menu default-active="0" class="">
+            <el-menu-item v-for="(item,index) in menu" :key="index" :index="index.toString()">
+              <i :class="item.icon"></i>
+              <span slot="title"><router-link :to="item.path">{{item.title}}</router-link></span>
+            </el-menu-item>
+          </el-menu>
+        </el-aside>
+        <el-main>
+          <router-view />
         </el-main>
       </el-container>
     </el-container>
   </div>
 </template>
-
-
 <script>
 export default {
   name: 'echarts',
   data() {
     return {
       menu: [
-        { title: '柱状图', path: '/echarts/bar' },
-        { title: '饼图', path: '/echarts/pie' },
-        { title: '散点图', path: '/echarts/scatter' },
-        { title: '地图', path: '/echarts/map' },
-        { title: 'K线图', path: '/echarts/candlestick' },
-        { title: '雷达图', path: '/echarts/radar' },
-        { title: '漏斗图', path: '/echarts/funnel' },
-        { title: '仪表盘', path: '/echarts/gauge' },
+        { title: '柱状图', path: '/echarts/bar', icon: 'el-icon-third-zhuzhuangtu' },
+        { title: '饼图', path: '/echarts/pie', icon: 'el-icon-third-bingtu' },
+        { title: '散点图', path: '/echarts/scatter', icon: 'el-icon-third-sandiantu' },
+        { title: '地图', path: '/echarts/map', icon: 'el-icon-third-ditu' },
+        { title: 'K线图', path: '/echarts/candlestick', icon: 'el-icon-third-Kxiantu' },
+        { title: '雷达图', path: '/echarts/radar', icon: 'el-icon-third-leidatu' },
+        { title: '漏斗图', path: '/echarts/funnel', icon: 'el-icon-third-loudoutu' },
+        { title: '仪表盘', path: '/echarts/gauge', icon: 'el-icon-third-yibiao' },
         // { title: '关系图', path: '/echarts/graphgl' },
 
       ],
@@ -74,11 +49,11 @@ export default {
 };
 
 </script>
-
 <style lang="less">
 .el-header,
 .el-footer {
   background-color: #293c55;
+  position: relative;
 }
 
 .el-aside {
@@ -88,8 +63,41 @@ export default {
 .el-main {
   background-color: #fff;
 }
-.el-container{
+
+.el-container {
   height: 100vh;
+}
+
+.header-menu {
+  position: absolute;
+  right: 0;
+}
+
+.el-menu {
+  background-color: transparent;
+  border: none;
+}
+
+.el-menu a {
+  color: #ccc;
+}
+
+.el-menu-item.is-active {
+  background-color: #e43c59;
+}
+
+.el-menu-item:hover {
+  background-color: #162436;
+}
+
+.navbar-brand {
+  display: inline-block;
+  padding: 20px 15px 10px 15px;
+}
+
+.el-header .navbar-logo {
+  height: 30px;
+  vertical-align: middle;
 }
 
 </style>
