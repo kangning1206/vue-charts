@@ -9,8 +9,8 @@ import echarts from 'echarts';
 
 function createNodes(widthCount, heightCount) {
   const nodes = [];
-  for (let i = 0; i < widthCount; i++) {
-    for (let j = 0; j < heightCount; j++) {
+  for (let i = 0; i < widthCount; i += 1) {
+    for (let j = 0; j < heightCount; j += 1) {
       nodes.push({
         x: Math.random() * window.innerWidth,
         y: Math.random() * window.innerHeight,
@@ -23,8 +23,8 @@ function createNodes(widthCount, heightCount) {
 
 function createEdges(widthCount, heightCount) {
   const edges = [];
-  for (let i = 0; i < widthCount; i++) {
-    for (let j = 0; j < heightCount; j++) {
+  for (let i = 0; i < widthCount; i += 1) {
+    for (let j = 0; j < heightCount; j += 1) {
       if (i < widthCount - 1) {
         edges.push({
           source: i + j * widthCount,

@@ -35,12 +35,14 @@ export default {
       menu: [
         { title: '柱状图', path: '/echarts/bar', icon: 'el-icon-third-zhuzhuangtu' },
         { title: '饼图', path: '/echarts/pie', icon: 'el-icon-third-bingtu' },
-        { title: '散点图', path: '/echarts/scatter', icon: 'el-icon-third-sandiantu' },
+        { title: 'JavaScript', path: '/echarts/javascript', icon: 'el-icon-third-bingtu' },
         { title: '地图', path: '/echarts/map', icon: 'el-icon-third-ditu' },
         { title: 'K线图', path: '/echarts/candlestick', icon: 'el-icon-third-Kxiantu' },
         { title: '雷达图', path: '/echarts/radar', icon: 'el-icon-third-leidatu' },
         { title: '漏斗图', path: '/echarts/funnel', icon: 'el-icon-third-loudoutu' },
         { title: '仪表盘', path: '/echarts/gauge', icon: 'el-icon-third-yibiao' },
+        { title: '分布图', path: '/echarts/dismap', icon: 'el-icon-third-yibiao' },
+
         // { title: '关系图', path: '/echarts/graphgl' },
 
       ],

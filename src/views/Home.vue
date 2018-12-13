@@ -8,7 +8,7 @@
           </div>
           <div class="text item">
             <router-link :to="item.path">{{item.title}}</router-link>
-            <p>{{item.desc }}</p>
+            <p style="line-height: 1.8;">{{item.desc }}</p>
           </div>
         </el-card>
     </el-col>
@@ -20,7 +20,7 @@ export default {
   name: 'home',
   data() {
     return {
-      link: [{ title: '图标', path: '/echarts', desc: 'ECharts，一个使用 JavaScript 实现的开源可视化库，可以流畅的运行在 PC 和移动设备上，兼容当前绝大部分浏览器（IE8/9/10/11，Chrome，Firefox，Safari等），底层依赖轻量级的矢量图形库 ZRender，提供直观，交互丰富，可高度个性化定制的数据可视化图表。' }, { title: 'a', path: 'aa', desc: 'b' }],
+      link: [{ title: '图表-echarts', path: '/echarts', desc: 'ECharts，一个使用 JavaScript 实现的开源可视化库，可以流畅的运行在 PC 和移动设备上，兼容当前绝大部分浏览器（IE8/9/10/11，Chrome，Firefox，Safari等），底层依赖轻量级的矢量图形库 ZRender，提供直观，交互丰富，可高度个性化定制的数据可视化图表。' }, { title: 'a', path: 'aa', desc: 'b' }],
     };
   },
 };

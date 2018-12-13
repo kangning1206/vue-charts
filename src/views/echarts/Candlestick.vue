@@ -12,6 +12,20 @@ const downColor = '#00da3c';
 const downBorderColor = '#008F28';
 
 
+function splitData(rawData) {
+  const categoryData = [];
+  const values = [];
+  for (let i = 0; i < rawData.length; i += 1) {
+    categoryData.push(rawData[i].splice(0, 1)[0]);
+    values.push(rawData[i]);
+  }
+  return {
+    categoryData,
+    values,
+  };
+}
+
+
 // 数据意义：开盘(open)，收盘(close)，最低(lowest)，最高(highest)
 const data0 = splitData([
   ['2013/1/24', 2320.26, 2320.26, 2287.3, 2362.94],
@@ -105,31 +119,19 @@ const data0 = splitData([
 ]);
 
 
-function splitData(rawData) {
-  const categoryData = [];
-  const values = [];
-  for (let i = 0; i < rawData.length; i++) {
-    categoryData.push(rawData[i].splice(0, 1)[0]);
-    values.push(rawData[i]);
-  }
-  return {
-    categoryData,
-    values,
-  };
-}
-
 function calculateMA(dayCount) {
   const result = [];
-  for (let i = 0, len = data0.values.length; i < len; i++) {
+  for (let i = 0, len = data0.values.length; i < len; i += 1) {
     if (i < dayCount) {
       result.push('-');
-      continue;
+
+
+      let sum = 0;
+      for (let j = 0; j < dayCount; j += 1) {
+        sum += data0.values[i - j][1];
+      }
+      result.push(sum / dayCount);
     }
-    let sum = 0;
-    for (let j = 0; j < dayCount; j++) {
-      sum += data0.values[i - j][1];
-    }
-    result.push(sum / dayCount);
   }
   return result;
 }
