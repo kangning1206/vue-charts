@@ -8,12 +8,20 @@ self.__precacheManifest = [
     "url": "/vue-charts/robots.txt"
   },
   {
-    "revision": "9bf6e7abed0be0e59c96",
-    "url": "/vue-charts/js/chunk-5cef3d4a.c0cc9ba7.js"
+    "revision": "868f0170ccd72a1512fc",
+    "url": "/vue-charts/css/chunk-2dac3a2e.5f0a81b3.css"
   },
   {
-    "revision": "80aee4c81463b81383bc",
-    "url": "/vue-charts/js/app.4cefc904.js"
+    "revision": "3db993db5c75314d3985",
+    "url": "/vue-charts/js/app.266b243c.js"
+  },
+  {
+    "revision": "4f3aaa73a3afae2b575d",
+    "url": "/vue-charts/js/chunk-vendors.3bbcac3d.js"
+  },
+  {
+    "revision": "fa5a31b39fa2f99cb957",
+    "url": "/vue-charts/js/chunk-14778b2f.a562d54d.js"
   },
   {
     "revision": "cd8dce48093f17be1d90",
@@ -48,23 +56,31 @@ self.__precacheManifest = [
     "url": "/vue-charts/js/chunk-2d22ccb5.8d764e9a.js"
   },
   {
-    "revision": "a3e8cef215a954485ae3",
-    "url": "/vue-charts/js/chunk-vendors.2ccfa7b0.js"
+    "revision": "1d50e7814aa2d086a323",
+    "url": "/vue-charts/js/chunk-ada39452.b16ca559.js"
   },
   {
     "revision": "3953d854c955a34144ee",
     "url": "/vue-charts/js/chunk-04e37cf8.385f46fc.js"
   },
   {
-    "revision": "1d50e7814aa2d086a323",
-    "url": "/vue-charts/js/chunk-ada39452.b16ca559.js"
+    "revision": "868f0170ccd72a1512fc",
+    "url": "/vue-charts/js/chunk-2dac3a2e.089ff7b1.js"
+  },
+  {
+    "revision": "9bf6e7abed0be0e59c96",
+    "url": "/vue-charts/js/chunk-5cef3d4a.c0cc9ba7.js"
+  },
+  {
+    "revision": "6f0a76321d30f3c8120915e57f7bd77e",
+    "url": "/vue-charts/fonts/element-icons.6f0a7632.ttf"
   },
   {
     "revision": "c72a12fa6f9fbb5ab161",
     "url": "/vue-charts/js/about.c20f9533.js"
   },
   {
-    "revision": "fa2277b6144f79a3d3551e740cca4658",
+    "revision": "d29b5a23d3384c183d2d5af43d0aaa8f",
     "url": "/vue-charts/index.html"
   },
   {
@@ -80,15 +96,11 @@ self.__precacheManifest = [
     "url": "/vue-charts/fonts/iconfont.64a51a9d.ttf"
   },
   {
-    "revision": "6f0a76321d30f3c8120915e57f7bd77e",
-    "url": "/vue-charts/fonts/element-icons.6f0a7632.ttf"
-  },
-  {
     "revision": "2fad952a20fbbcfd1bf2ebb210dccf7a",
     "url": "/vue-charts/fonts/element-icons.2fad952a.woff"
   },
   {
-    "revision": "a3e8cef215a954485ae3",
+    "revision": "4f3aaa73a3afae2b575d",
     "url": "/vue-charts/css/chunk-vendors.a6417eae.css"
   },
   {
@@ -96,7 +108,11 @@ self.__precacheManifest = [
     "url": "/vue-charts/css/chunk-ada39452.5f0a81b3.css"
   },
   {
-    "revision": "80aee4c81463b81383bc",
-    "url": "/vue-charts/css/app.5beeb1f7.css"
+    "revision": "fa5a31b39fa2f99cb957",
+    "url": "/vue-charts/css/chunk-14778b2f.bc55b8ef.css"
+  },
+  {
+    "revision": "3db993db5c75314d3985",
+    "url": "/vue-charts/css/app.05eb6d42.css"
   }
 ];

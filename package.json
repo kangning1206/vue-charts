@@ -10,6 +10,8 @@
   },
   "dependencies": {
     "axios": "^0.18.0",
+    "d3": "^5.7.0",
+    "d3-tip": "^0.9.1",
     "echarts": "^4.2.0-rc.2",
     "element-ui": "^2.4.11",
     "flex.css": "^1.1.7",

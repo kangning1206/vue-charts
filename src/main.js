@@ -1,5 +1,7 @@
 import Vue from 'vue';
 
+import * as d3 from 'd3';
+
 // 在 ./App.vue 前引用，避免加载顺序
 import ElementUI from 'element-ui';
 
@@ -20,6 +22,8 @@ import '@/assets/css/iconfont/iconfont.css';
 Vue.config.productionTip = false;
 
 Vue.use(ElementUI);
+
+Vue.prototype.$d3 = d3;
 
 new Vue({
   router,
