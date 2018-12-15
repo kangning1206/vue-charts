@@ -46,7 +46,8 @@ export default new Router({
       name: 'd3',
       redirect: '/d3/bar',
       component: () => import('./views/D3.vue'),
-      children: [{ path: 'bar', name: 'd3bar', component: () => import('./views/d3/Bar.vue') }],
+      children: [{ path: 'bar', name: 'd3bar', component: () => import('./views/d3/Bar.vue') }, { path: 'circle', name: 'd3circle', component: () => import('./views/d3/Circle.vue') }],
+
     },
     {
       path: '/admin',
