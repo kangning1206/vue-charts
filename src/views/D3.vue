@@ -35,6 +35,7 @@ export default {
       menu: [
         { title: '柱状图', path: '/d3/bar', icon: 'el-icon-third-zhuzhuangtu' },
         { title: '圆形图', path: '/d3/circle', icon: 'el-icon-third-bingtu' },
+        { title: '国际象棋', path: '/d3/chess', icon: 'el-icon-third-bingtu' },
         // { title: 'JavaScript', path: '/d3/javascript', icon: 'el-icon-third-bingtu' },
         // { title: '地图', path: '/d3/map', icon: 'el-icon-third-ditu' },
         // { title: 'K线图', path: '/d3/candlestick', icon: 'el-icon-third-Kxiantu' },
