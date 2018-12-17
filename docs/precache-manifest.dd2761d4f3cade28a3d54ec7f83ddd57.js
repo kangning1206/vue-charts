@@ -108,7 +108,7 @@ self.__precacheManifest = [
     "url": "/vue-charts/css/chunk-vendors.a6417eae.css"
   },
   {
-    "revision": "4cb624d6dfbb6bfc549a9e9a1099ebf6",
+    "revision": "a77c3e21ddf38c415efd98810cf34c20",
     "url": "/vue-charts/index.html"
   },
   {
