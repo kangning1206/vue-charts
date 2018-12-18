@@ -67,6 +67,7 @@ function start(d3) {
       .attr('x', () => i * 100 + 150)
       .attr('y', 90)
       .attr('fill', color[0])
+      .attr('text-anchor', 'middle')
       .attr('transform', `rotate(180, ${i * 100 + 150} 85)`)
       .text(() => d);
   });
@@ -78,6 +79,7 @@ function start(d3) {
       .attr('x', () => i * 100 + 150)
       .attr('y', 920)
       .attr('fill', color[0])
+      .attr('text-anchor', 'middle')
       .text(() => d);
   });
 
@@ -85,9 +87,10 @@ function start(d3) {
   ydata.forEach((d, i) => {
     gborder
       .append('text')
-      .attr('x', 80)
+      .attr('x', 90)
       .attr('y', () => i * 100 + 150)
       .attr('fill', color[0])
+      .attr('text-anchor', 'end')
       .text(() => d);
   });
 
@@ -98,7 +101,8 @@ function start(d3) {
       .attr('x', 910)
       .attr('y', () => i * 100 + 150)
       .attr('fill', color[0])
-      .attr('transform', `rotate(180, 915 ${i * 100 + 150})`)
+      .attr('text-anchor', 'end')
+      .attr('transform', `rotate(180, 910 ${i * 100 + 150})`)
       .text(() => d);
   });
 
