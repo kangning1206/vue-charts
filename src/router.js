@@ -61,6 +61,7 @@ export default new Router({
       component: () => import('./views/CSS.vue'),
       children: [
         { path: 'rotate', name: 'rotate', component: () => import('./views/css/Rotate.vue') },
+        { path: 'demo', name: 'cssDemo', component: () => import('./views/css/Demo.vue') },
       ],
 
     },

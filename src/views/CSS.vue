@@ -34,8 +34,7 @@ export default {
     return {
       menu: [
         { title: '方块', path: '/css/rotate', icon: 'el-icon-third-zhuzhuangtu' },
-        { title: '圆形图', path: '/d3/circle', icon: 'el-icon-third-bingtu' },
-        { title: '国际象棋', path: '/d3/chess', icon: 'el-icon-third-bingtu' },
+        { title: 'Demo', path: '/css/demo', icon: 'el-icon-third-bingtu' },
       ],
     };
   },

@@ -25,11 +25,6 @@ export default {
 <style type="text/css">
 
 
-.css3 {
- /* perspective: 1000px;
-  perspective-origin: 0 0;
-  padding-top: 100px;*/
-}
 
 @keyframes scroll {
   100% {
@@ -72,6 +67,11 @@ export default {
   background: #009688;
   transform-origin: left;
   animation: m1 1s linear 1s both;
+  /* 使用动画m1,
+  持续1s，
+  动画函数匀速linear，
+  启动前延迟1s,也就是说1秒后在启动，按次序执行；
+  both:animation-fill-mode属性，属性规定当动画不播放时（当动画完成时，或当动画有一个延迟未开始播放时），要应用到元素的样式;如果不设置会返回到动画前状态 */
 }
 
 
