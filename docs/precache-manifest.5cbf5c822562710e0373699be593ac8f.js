@@ -1,19 +1,19 @@
 self.__precacheManifest = [
   {
-    "revision": "3e59593027617e022893",
-    "url": "/vue-charts/js/chunk-60562301.ad38cecf.js"
+    "revision": "89b8e6b82337c272250b",
+    "url": "/vue-charts/js/chunk-771a43a0.f385e9ae.js"
   },
   {
     "revision": "b6216d61c03e6ce0c9aea6ca7808f7ca",
     "url": "/vue-charts/robots.txt"
   },
   {
-    "revision": "89b8e6b82337c272250b",
-    "url": "/vue-charts/css/chunk-771a43a0.e79e08f6.css"
+    "revision": "5de18d02315b8a99523d",
+    "url": "/vue-charts/css/chunk-a115e216.5f0a81b3.css"
   },
   {
-    "revision": "82da6f274d9db4c9b035",
-    "url": "/vue-charts/js/app.a5c62ccd.js"
+    "revision": "8fbcbe1336f96e66dd6a",
+    "url": "/vue-charts/js/app.0819f720.js"
   },
   {
     "revision": "4f3aaa73a3afae2b575d",
@@ -60,8 +60,8 @@ self.__precacheManifest = [
     "url": "/vue-charts/js/chunk-2d238644.b649dd9c.js"
   },
   {
-    "revision": "f54a6461a13308b5528f",
-    "url": "/vue-charts/js/chunk-c2a547d4.c3df3575.js"
+    "revision": "3a9223df704b120c63f9",
+    "url": "/vue-charts/js/chunk-e44e498e.dfe70358.js"
   },
   {
     "revision": "f62f8e2d33f2d001697f",
@@ -72,52 +72,64 @@ self.__precacheManifest = [
     "url": "/vue-charts/js/chunk-5cef3d4a.c0cc9ba7.js"
   },
   {
-    "revision": "5de18d02315b8a99523d",
-    "url": "/vue-charts/js/chunk-a115e216.c6a72ada.js"
+    "revision": "f54a6461a13308b5528f",
+    "url": "/vue-charts/js/chunk-c2a547d4.c3df3575.js"
   },
   {
-    "revision": "89b8e6b82337c272250b",
-    "url": "/vue-charts/js/chunk-771a43a0.f385e9ae.js"
+    "revision": "3e59593027617e022893",
+    "url": "/vue-charts/js/chunk-60562301.ad38cecf.js"
+  },
+  {
+    "revision": "e4f0df2ca25f85df75a5",
+    "url": "/vue-charts/js/chunk-ba3197e8.27c9a2bf.js"
+  },
+  {
+    "revision": "5de18d02315b8a99523d",
+    "url": "/vue-charts/js/chunk-a115e216.c6a72ada.js"
   },
   {
     "revision": "3953d854c955a34144ee",
     "url": "/vue-charts/js/chunk-04e37cf8.385f46fc.js"
   },
   {
-    "revision": "6f0a76321d30f3c8120915e57f7bd77e",
-    "url": "/vue-charts/fonts/element-icons.6f0a7632.ttf"
+    "revision": "2fad952a20fbbcfd1bf2ebb210dccf7a",
+    "url": "/vue-charts/fonts/element-icons.2fad952a.woff"
   },
   {
     "revision": "c72a12fa6f9fbb5ab161",
     "url": "/vue-charts/js/about.c20f9533.js"
   },
   {
-    "revision": "64a51a9dae04db014ea96b930d8468ec",
-    "url": "/vue-charts/fonts/iconfont.64a51a9d.ttf"
+    "revision": "6f0a76321d30f3c8120915e57f7bd77e",
+    "url": "/vue-charts/fonts/element-icons.6f0a7632.ttf"
   },
   {
-    "revision": "3e59593027617e022893",
-    "url": "/vue-charts/css/chunk-60562301.bc55b8ef.css"
+    "revision": "89b8e6b82337c272250b",
+    "url": "/vue-charts/css/chunk-771a43a0.e79e08f6.css"
   },
   {
     "revision": "ce7266392c4f63a83d1fb67febb2797e",
     "url": "/vue-charts/jquery.js"
   },
   {
-    "revision": "4f3aaa73a3afae2b575d",
-    "url": "/vue-charts/css/chunk-vendors.a6417eae.css"
+    "revision": "3a9223df704b120c63f9",
+    "url": "/vue-charts/css/chunk-e44e498e.5b5d1eca.css"
   },
   {
     "revision": "aba133a4caddfb3b8a9abc49592c33b6",
     "url": "/vue-charts/data/tweets.json"
   },
   {
-    "revision": "2fad952a20fbbcfd1bf2ebb210dccf7a",
-    "url": "/vue-charts/fonts/element-icons.2fad952a.woff"
+    "revision": "4f3aaa73a3afae2b575d",
+    "url": "/vue-charts/css/chunk-vendors.a6417eae.css"
   },
   {
-    "revision": "5de18d02315b8a99523d",
-    "url": "/vue-charts/css/chunk-a115e216.5f0a81b3.css"
+    "revision": "1b74bff6e33d204bbce3545f0046c777",
+    "url": "/vue-charts/demo.html"
+  },
+  {
+    "revision": "e4f0df2ca25f85df75a5",
+    "url": "/vue-charts/css/chunk-ba3197e8.5f0a81b3.css"
   },
   {
     "revision": "f54a6461a13308b5528f",
@@ -128,16 +140,20 @@ self.__precacheManifest = [
     "url": "/vue-charts/fonts/iconfont.f37d2aa9.eot"
   },
   {
+    "revision": "64a51a9dae04db014ea96b930d8468ec",
+    "url": "/vue-charts/fonts/iconfont.64a51a9d.ttf"
+  },
+  {
     "revision": "740ce0b0401c88e541db1e849dfd5cc1",
     "url": "/vue-charts/img/iconfont.740ce0b0.svg"
   },
   {
-    "revision": "d8fecfe4c9f3b8e6b079a4a53582ddc0",
+    "revision": "16cadda7f80e415115eac23543dedcf7",
     "url": "/vue-charts/index.html"
   },
   {
-    "revision": "1b74bff6e33d204bbce3545f0046c777",
-    "url": "/vue-charts/demo.html"
+    "revision": "3e59593027617e022893",
+    "url": "/vue-charts/css/chunk-60562301.bc55b8ef.css"
   },
   {
     "revision": "f62f8e2d33f2d001697f",
@@ -148,7 +164,7 @@ self.__precacheManifest = [
     "url": "/vue-charts/css/chunk-14778b2f.bc55b8ef.css"
   },
   {
-    "revision": "82da6f274d9db4c9b035",
+    "revision": "8fbcbe1336f96e66dd6a",
     "url": "/vue-charts/css/app.05eb6d42.css"
   }
 ];

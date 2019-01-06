@@ -26,9 +26,9 @@ export default {
 
 
 .css3 {
-  perspective: 1000px;
+ /* perspective: 1000px;
   perspective-origin: 0 0;
-  padding-top: 100px;
+  padding-top: 100px;*/
 }
 
 @keyframes scroll {
@@ -60,13 +60,14 @@ export default {
   opacity: 0.5;
 }
 
-
+/* 设置一个动画、沿着 y轴旋转-90度 */
 @keyframes m1 {
   100% {
     transform: rotateY(-90deg);
   }
 }
 
+/* 设置m1面颜色，旋转轴起点，动画*/
 .m1 {
   background: #009688;
   transform-origin: left;
