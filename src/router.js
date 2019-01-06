@@ -55,6 +55,16 @@ export default new Router({
 
     },
     {
+      path: '/css',
+      name: 'css',
+      redirect: '/css/rotate',
+      component: () => import('./views/CSS.vue'),
+      children: [
+        { path: 'rotate', name: 'rotate', component: () => import('./views/css/Rotate.vue') },
+      ],
+
+    },
+    {
       path: '/admin',
       name: 'admin',
       component: () => import(/* webpackChunkName: "about" */ './views/Admin.vue'),
